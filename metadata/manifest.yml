@@ -4,7 +4,7 @@ Display-Name: Php
 License: MIT
 Version: "5.6.16"
 Versions: [ "5.5.22", "5.6.16" ]
-Website: https://github.com/domenic95/openshift-cartridge-php.git
+Source-Url: https://github.com/domenic95/openshift-cartridge-php.git
 Cartridge-Version: 0.0.2
 Cartridge-Vendor: boekkooi
 Categories:
