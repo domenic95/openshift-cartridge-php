@@ -4,7 +4,7 @@ Display-Name: Php
 License: MIT
 Version: "5.6.16"
 Versions: [ "5.5.22", "5.6.16" ]
-Website: https://github.com/boekkooi/openshift-cartridge-php
+Website: https://github.com/domenic95/openshift-cartridge-php.git
 Cartridge-Version: 0.0.2
 Cartridge-Vendor: boekkooi
 Categories:
@@ -22,3 +22,11 @@ Group-Overrides:
   - components:
     - php-5.6
     - web_framework
+Endpoints:
+  - Private-IP-Name:   IP
+    Private-Port-Name: PORT
+    Private-Port:      8080
+    Public-Port-Name:  PROXY_PORT
+  - Private-IP-Name: IP
+    Private-Port-Name: XDEBUG_HTTP_PORT
+    Private-Port: 9000
